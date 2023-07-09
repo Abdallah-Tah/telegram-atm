@@ -7,7 +7,7 @@ A custom Laravel package for interacting with the Telegram API.
 Install the package via composer:
 
 ```bash
-composer require amohamed/telegram-atm:dev-master
+composer require amohamed/telegram-atm:dev-main
 ```
 
 ## Configuration
