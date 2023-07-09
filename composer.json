@@ -1,0 +1,29 @@
+{
+    "name": "amohamed/telegram-atm",
+    "description": "This is a custom Telegram Service bot",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": ">=7.2"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Amohamed\\TelegramAtm\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amohamed\\TelegramAtm\\TelegramAtmServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdallah Mohamed",
+            "email": "abdal_cascad@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
