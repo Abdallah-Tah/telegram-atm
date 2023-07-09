@@ -15,7 +15,7 @@ composer require amohamed/telegram-atm:dev-main
 Publish the package configuration file using:
 
 ```bash
-php artisan vendor:publish --provider="Amohamed\TelegramAtm\TelegramAtmServiceProvider"
+php artisan vendor:publish --provider="Amohamed\TelegramAtm\TelegramAtmServiceProvider" --tag=migrations
 ```
 
 Then, you can modify the published configuration file located at `config/telegramatm.php` with your Telegram bot's details.
